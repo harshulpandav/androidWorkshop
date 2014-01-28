@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:weightSum="1">
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content"></RelativeLayout>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.05">
+        <TextView android:text="Password" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_gravity="bottom"></TextView>
+    </LinearLayout>
+    <EditText android:layout_height="wrap_content" android:id="@+id/editText1" android:layout_width="fill_parent" android:inputType="textPassword">
+        <requestFocus></requestFocus>
+    </EditText>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.07">
+        <TextView android:text="Confirm Password" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_gravity="bottom"></TextView>
+    </LinearLayout>
+    <EditText android:layout_height="wrap_content" android:id="@+id/editText2" android:layout_width="fill_parent" android:inputType="textPassword"></EditText>
+    <LinearLayout android:id="@+id/linearLayout3" android:layout_height="83dp" android:layout_gravity="center_horizontal" android:layout_weight="0.15" android:layout_width="117dp">
+        <Button android:id="@+id/button1" android:text="OK" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="fill_parent"></Button>
+    </LinearLayout>
+    
+</LinearLayout>
